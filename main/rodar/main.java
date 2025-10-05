@@ -1,6 +1,5 @@
 package main.rodar;
 
-    
     // import main.menus.CadastrarPacientes;
     // import main.menus.CadastrarMedicos;
     // import main.menus.AlterarPacientes;
@@ -8,6 +7,7 @@ package main.rodar;
     // import main.menus.Agendamento;
     // import main.entities.PlanoDeSaude;
     // import main.menus.AgendamentoConsultas;
+    // import main.menus.AlterarStatusC;
 
 public class main {
     public static void main(String[] args) {
@@ -31,5 +31,8 @@ public class main {
     // AgendamentoConsultas agendamento = new AgendamentoConsultas();
     // agendamento.agendarConsulta();
     
+    // AlterarStatusC alterar = new AlterarStatusC();
+    // alterar.alterarStatusConsulta();
+
     }
 }
