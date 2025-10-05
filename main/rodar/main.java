@@ -7,6 +7,7 @@ package main.rodar;
     // import main.menus.AlterarMedicos;
     // import main.menus.Agendamento;
     // import main.entities.PlanoDeSaude;
+    // import main.menus.AgendamentoConsultas;
 
 public class main {
     public static void main(String[] args) {
@@ -26,6 +27,9 @@ public class main {
     // agendamento.criarAgendamento();
 
     //  PlanoDeSaude.listarPlanos();
+
+    // AgendamentoConsultas agendamento = new AgendamentoConsultas();
+    // agendamento.agendarConsulta();
     
     }
 }
