@@ -8,6 +8,7 @@ package main.rodar;
     // import main.entities.PlanoDeSaude;
     // import main.menus.AgendamentoConsultas;
     // import main.menus.AlterarStatusC;
+    // import main.menus.AgendamentoInternacoes;
 
 public class main {
     public static void main(String[] args) {
@@ -33,6 +34,9 @@ public class main {
     
     // AlterarStatusC alterar = new AlterarStatusC();
     // alterar.alterarStatusConsulta();
+
+    // AgendamentoInternacoes internacao = new AgendamentoInternacoes();
+    // internacao.registrarInternacao();
 
     }
 }
