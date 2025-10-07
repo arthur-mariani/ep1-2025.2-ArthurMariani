@@ -109,12 +109,18 @@ public class AgendamentoConsultas extends Agendamento {
         }
     }
 
-    private void salvarConsulta(int codigo, String paciente, String medico, String dataHora, int sala, String status, double valor) throws IOException {
-        try (FileWriter fw = new FileWriter(CAMINHO_CONSULTAS, true)) {
-            fw.write(codigo + "," + paciente + "," + medico + "," + dataHora + "," + sala + "," + status + "," + valor + "\n");
+   private void salvarConsulta(int codigo, String paciente, String medico, String dataHora, int sala, String status, double valor) throws IOException {
+    File arquivo = new File(CAMINHO_CONSULTAS);
+    boolean novoArquivo = !arquivo.exists(); 
+
+    try (FileWriter fw = new FileWriter(arquivo, true)) {
+        if (novoArquivo) {
+            fw.write("Codigo,Paciente,Medico,Data/Hora,Sala,Status,Valor Final\n");
+        }
+
+        fw.write(codigo + "," + paciente + "," + medico + "," + dataHora + "," + sala + "," + status + "," + valor + "\n");
         }
     }
-
     private List<String[]> lerCSV(String caminho) throws IOException {
         List<String[]> linhas = new ArrayList<>();
         File arquivo = new File(caminho);
