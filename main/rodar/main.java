@@ -16,6 +16,7 @@ package main.rodar;
     // import main.menus.ListarPacientes;
     // import main.menus.ListarMedicos;
     // import main.menus.ListarMedicamentos;
+    // import main.menus.CompraMedicamentos;
 
 public class main {
     public static void main(String[] args) {
@@ -64,6 +65,9 @@ public class main {
 
     //  ListarMedicamentos lmd = new ListarMedicamentos();
     //  lmd.listar();
+
+    //  CompraMedicamentos compra = new CompraMedicamentos();
+    //  compra.comprarMedicamento();
 
     }
 }
