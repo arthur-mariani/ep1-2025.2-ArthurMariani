@@ -1,6 +1,6 @@
 package main.rodar;
 
-    // import main.menus.CadastrarPacientes;
+// import main.menus.CadastrarPacientes;
     // import main.menus.CadastrarMedicos;
     // import main.menus.AlterarPacientes;
     // import main.menus.AlterarMedicos;
@@ -9,6 +9,7 @@ package main.rodar;
     // import main.menus.AgendamentoConsultas;
     // import main.menus.AlterarStatusC;
     // import main.menus.AgendamentoInternacoes;
+    // import main.menus.AlterarStatusI;
 
 public class main {
     public static void main(String[] args) {
@@ -37,6 +38,8 @@ public class main {
 
     // AgendamentoInternacoes internacao = new AgendamentoInternacoes();
     // internacao.registrarInternacao();
+
+    // new AlterarStatusI().alterarStatusInternacao();
 
     }
 }
