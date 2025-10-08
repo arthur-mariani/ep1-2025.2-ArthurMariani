@@ -1,6 +1,6 @@
 package main.rodar;
 
-// import main.menus.CadastrarPacientes;
+    // import main.menus.CadastrarPacientes;
     // import main.menus.CadastrarMedicos;
     // import main.menus.AlterarPacientes;
     // import main.menus.AlterarMedicos;
@@ -10,6 +10,10 @@ package main.rodar;
     // import main.menus.AlterarStatusC;
     // import main.menus.AgendamentoInternacoes;
     // import main.menus.AlterarStatusI;
+    // import main.menus.ListarConsultas;
+    // import main.menus.ListarInternacoes;
+    // import main.menus.ListarPacientes;
+    // import main.menus.ListarMedicos;
 
 public class main {
     public static void main(String[] args) {
@@ -17,18 +21,18 @@ public class main {
     // cadastroPacientes.cadastrarPaciente();  
 
     // CadastrarMedicos cadastroMedicos = new CadastrarMedicos();
-    //  cadastroMedicos.cadastrarMedico(); 
+    // cadastroMedicos.cadastrarMedico(); 
 
     // AlterarPacientes alteraPacientes = new AlterarPacientes();
-    //  alteraPacientes.alterarPaciente();
+    // alteraPacientes.alterarPaciente();
 
     // AlterarMedicos alteraMedicos = new AlterarMedicos();
-    //  alteraMedicos.alterarMedico();
+    // alteraMedicos.alterarMedico();
 
     // Agendamento agendamento = new Agendamento();
     // agendamento.criarAgendamento();
 
-    //  PlanoDeSaude.listarPlanos();
+    // PlanoDeSaude.listarPlanos();
 
     // AgendamentoConsultas agendamento = new AgendamentoConsultas();
     // agendamento.agendarConsulta();
@@ -40,6 +44,18 @@ public class main {
     // internacao.registrarInternacao();
 
     // new AlterarStatusI().alterarStatusInternacao();
+
+    // ListarConsultas lc = new ListarConsultas();
+    // lc.listar();
+
+    // ListarInternacoes li = new ListarInternacoes();
+    // li.listar();
+
+    // ListarPacientes lp = new ListarPacientes();
+    // lp.listar();
+
+    // ListarMedicos lm = new ListarMedicos();
+    // lm.listar();
 
     }
 }
