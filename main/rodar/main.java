@@ -2,6 +2,7 @@ package main.rodar;
 
     // import main.menus.CadastrarPacientes;
     // import main.menus.CadastrarMedicos;
+    // import main.menus.CadastrarMedicamentos;
     // import main.menus.AlterarPacientes;
     // import main.menus.AlterarMedicos;
     // import main.menus.Agendamento;
@@ -14,6 +15,7 @@ package main.rodar;
     // import main.menus.ListarInternacoes;
     // import main.menus.ListarPacientes;
     // import main.menus.ListarMedicos;
+    // import main.menus.ListarMedicamentos;
 
 public class main {
     public static void main(String[] args) {
@@ -22,6 +24,9 @@ public class main {
 
     // CadastrarMedicos cadastroMedicos = new CadastrarMedicos();
     // cadastroMedicos.cadastrarMedico(); 
+
+    // CadastrarMedicamentos cadastroMedicamentos = new CadastrarMedicamentos();
+    // cadastroMedicamentos.cadastrarMedicamentos();
 
     // AlterarPacientes alteraPacientes = new AlterarPacientes();
     // alteraPacientes.alterarPaciente();
@@ -56,6 +61,9 @@ public class main {
 
     // ListarMedicos lm = new ListarMedicos();
     // lm.listar();
+
+    //  ListarMedicamentos lmd = new ListarMedicamentos();
+    //  lmd.listar();
 
     }
 }
