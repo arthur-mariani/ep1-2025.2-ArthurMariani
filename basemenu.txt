@@ -1,0 +1,14 @@
+---- Sistema de Gerenciamento Hospitalar ----
+
+    ==== MENU ====
+
+1. Cadastros -> 1. Cadastro de Pacientes 2. Cadastro de Médicos 3. Alterar dados de pacientes 4. Alterar dados de médico 5. Voltar ao menu
+2. Agendamentos -> 1. Agendamento de Consulta 2. Agendamento de Internação 3. Voltar ao menu
+3. Consultas -> 1. Consultas marcadas 2. Alterar Status Consultas 3. Voltar ao menu 
+4. Internações -> 1. Internações marcadas 2. Alterar Status Internações 3. Voltar ao menu 
+5. Planos de Saúde -> 1. Planos e benefícios 2. Voltar ao menu
+6. Farmácia -> 1. Listar Medicamentos 2. Cadastro de Medicamentos 3. Compra de Medicamentos 4. Voltar ao menu 
+7. Relatórios -> 1. Listar Consultas 2. Listar Internações 3. Listar Médicos 4. Listar Pacientes 5. Voltar ao menu 
+8. Sair
+
+    ==============
