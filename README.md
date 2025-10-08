@@ -20,16 +20,23 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Instruções para Compilação e Execução
 
 1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
+   javac -encoding UTF-8 -d bin main/rodar/main.java
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+   java -cp bin main.rodar.main
 
 3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
+   bin: Contém os arquivos .class.
+   Dados: Contém os arquivos salvos em .csv.
+   Entities: Classes que servem de base para o restante.
+   Menus: Classes que utilizam as classes de "entities" para realizar operações.
+   Rodar: Pasta que contém a main para rodar o arquivo.
+   prints: Pasta com as prints para inserir no readme.
+   src: Contém a base utilizada para a criação do menu e o readme.
 
 3. **Versão do JAVA utilizada:**  
-   [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
+   Java 8 "1.8.0_441"
+   JDK 1.8.0_462
 
 ---
 
@@ -42,13 +49,14 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Prints da Execução
 
 1. Menu Principal:  
-   ![Inserir Print 1](caminho/do/print1.png)
+   ![Inserir Print 1](prints/menuprincipal.png)
 
 2. Cadastro de Médico:  
-   ![Inserir Print 2](caminho/do/print2.png)
+   ![Inserir Print 2](prints/cadmed1.png)
+   ![Inserir Print 2.1](prints/cadmed2.png)
 
-3. Relatório de ?:  
-   ![Inserir Print 3](caminho/do/print3.png)
+3. Relatório de Pacientes:  
+   ![Inserir Print 3](prints/relpacientes.png)
 
 ---
 
@@ -56,13 +64,13 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+- Introduzi uma opção extra de farmácia, que mostra os medicamentos presentes no estoque, cadastra novos medicamentos e realiza o controle de vendas, similar a uma nota fiscal. Minha principal dificuldade foi com com a persistência dos dados e a possibilidade de altera-los posteriormente, gastei muito tempo para aprender.
 
 ---
 
 ## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
+- arthurmariani.5@gmail.com
 
 ---
 
