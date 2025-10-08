@@ -1,0 +1,4 @@
+Codigo,Paciente,Medico,DataEntrada,Quarto,Custo,Plano,Status
+1000,Maria Eduarda Costa Oliveira,Lucas Oliveira Santos,05/10/2025,500,3600.0,Aluno,Internação em andamento
+1001,Felipe Rocha dos Anjos,Pedro Henrique Cunha,07/10/2025,501,0.0,Especial,Internação em andamento
+1002,Beatriz Nunes Castilho,Guilherme Costa Almeida,06/10/2025,502,3200.0,Servidor,Internação em andamento

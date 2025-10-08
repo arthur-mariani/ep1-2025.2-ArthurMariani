@@ -1,0 +1,8 @@
+Codigo,Paciente,Medico,Data/Hora,Sala,Status,Valor Final
+1,Felipe Rocha dos Anjos,Jo∆o Victor Teixeira,Sab(08h-14h),100,Agendada,320.0
+2,Ana Carolina Mendes da Silva,Lucas Oliveira Santos,Sex(14h-18h),101,Agendada,405.0
+3,Jo∆o Pedro Ferreira de Lima,Pedro Henrique Cunha,Seg(08h-12h),102,Agendada,360.0
+4,Juliana Soares Teixeira,Ana Paula Rodrigues,Ter(15h-18h),103,Agendada,350.0
+5,Ricardo Gomes Pereira J£nior,Mìnica Ribeiro Souza,Qui(09h-17h),104,Cancelada,357.5
+6,Patr°cia Ribeiro Gonáalves,Guilherme Costa Almeida,Qui(10h-16h),105,Agendada,520.0
+7,Beatriz Nunes Castilho,Camila Borges Lopes,Seg(14h-19h),106,Agendada,187.5
