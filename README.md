@@ -26,23 +26,23 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
    java -cp bin main.rodar.main
 
 3. **Estrutura de Pastas:**  
-   bin: Contém os arquivos .class.
-   Dados: Contém os arquivos salvos em .csv.
-   Entities: Classes que servem de base para o restante.
-   Menus: Classes que utilizam as classes de "entities" para realizar operações.
-   Rodar: Pasta que contém a main para rodar o arquivo.
-   prints: Pasta com as prints para inserir no readme.
+   bin: Contém os arquivos .class.  
+   Dados: Contém os arquivos salvos em .csv.  
+   Entities: Classes que servem de base para o restante.  
+   Menus: Classes que utilizam as classes de "entities" para realizar operações.  
+   Rodar: Pasta que contém a main para rodar o arquivo.  
+   prints: Pasta com as prints para inserir no readme.  
    src: Contém a base utilizada para a criação do menu e o readme.
 
 3. **Versão do JAVA utilizada:**  
-   Java 8 "1.8.0_441"
+   Java 8 "1.8.0_441"  
    JDK 1.8.0_462
 
 ---
 
 ## Vídeo de Demonstração
 
-- [Inserir o link para o vídeo no YouTube/Drive aqui]
+- (https://youtu.be/gsxm0ZO37lI)
 
 ---
 
